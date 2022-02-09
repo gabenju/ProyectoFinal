@@ -27,6 +27,12 @@ h3{
     font-weight: bold;
   
 }
+.titulosP{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: ;
+}
 
 .footer {
     padding-top: 20px;
@@ -49,9 +55,23 @@ h3{
     margin: 5px;
 }
 .logocolor{
-    padding: 100px 150px;
+    padding: 100px;
+    display: flex;
+    animation-name: mueve;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes mueve {
+    from {
+        transform: translateY(-500px)}
+    to{
+        transform: translateY(0);}  
+}
 
 }
+
+
 .menu{
     display: flex;
     justify-content: flex-end;
@@ -78,6 +98,29 @@ h3{
         display: flex;
         justify-content: center;
     }
-.carrusel{
-    padding: 1px;
+    .mov{
+        animation-name: mov;
+        animation-iteration-count: 1;
+        animation-duration: 5s;
+        animation-delay: 0s;
+    }
+    @keyframes mov {
+        from {
+            transform: translateX(-2000px)}
+        to{
+            transform: translateX(0);}  
+    }
+    }
+
+
+@media (max-width: 400px){
+    .mobile{
+        display: none;
+    }
+
+   .row2{
+       display: none;
+    
+   } 
+
 }
