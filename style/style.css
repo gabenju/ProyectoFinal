@@ -76,6 +76,9 @@ h3{
     display: flex;
     justify-content: flex-end;
 }
+.asd{
+    
+}
 
 .posicionUbicacion {
     display: flex;
@@ -117,6 +120,5 @@ h3{
     .mobile{
         display: none;
     }
-
 
 }
