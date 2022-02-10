@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500;700&family=Open+Sans:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-color: lightgrey; }
+
+h3 {
+  color: black;
+  font-size: xx-large;
+  font-weight: 300; }
+
+.bordes {
+  border-top: solid 5px lightgray;
+  border-bottom: solid 5px lightgray; }
+
+.parrafo {
+  padding: 20px;
+  background-color: #897f6a;
+  font-weight: bold; }
+
+.titulosP {
+  width: 300px;
+  height: 40px;
+  display: flex; }
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .footer .footer__ubicanos {
+    text-align: left; }
+    .footer .footer__ubicanos .footer__seguinos {
+      text-align: center; }
+      .footer .footer__ubicanos .footer__seguinos .footer__politicas {
+        text-align: right;
+        color: white; }
+        .footer .footer__ubicanos .footer__seguinos .footer__politicas .loguito {
+          margin: 5px; }
+
+.menu {
+  display: flex;
+  justify-content: flex-end; }
+
+.botonAni {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px; }
+  .botonAni:hover {
+    background-image: linear-gradient(to left, #897f6a, lightgrey); }
+
+.iconos_inicio {
+  display: flex;
+  justify-content: center; }
+
+.posicionUbicacion {
+  display: flex;
+  justify-content: center;
+  background-color: #897f6a;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+@media (max-width: 400px) {
+  .mobile {
+    display: none; } }

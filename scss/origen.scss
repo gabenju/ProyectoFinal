@@ -1,0 +1,27 @@
+@import "reset";
+@import "texto";
+@import "vinculados";
+
+
+
+
+
+// Generales <-<-<-<-<-<-Q(-_-Q)
+
+.posicionUbicacion {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(137, 127, 106);;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+
+// Media Q <-<-<-<-<-<-Q(-_-Q)
+
+@media (max-width: 400px){
+    .mobile{
+        display: none;
+    }
+
+}
