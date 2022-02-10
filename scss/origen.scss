@@ -18,10 +18,34 @@
 
 
 // Media Q <-<-<-<-<-<-Q(-_-Q)
+@media (max-width: 400px) {
+    .mobile {
+      display: none; } }
 
-@media (max-width: 400px){
-    .mobile{
-        display: none;
-    }
-
+// Animaciones Q <-<-<-<-<-<-Q(-_-Q)
+.logocolor{
+    padding: 100px;
+    display: flex;
+    animation-name: mueve;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes mueve {
+    from {
+        transform: translateY(-500px)}
+    to{
+        transform: translateY(0);} 
+}
+.mov{
+    animation-name: mov;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes mov {
+    from {
+        transform: translateX(-2000px)}
+    to{
+        transform: translateX(0);}  
 }

@@ -52,7 +52,7 @@ h3{
 }
 .loguito{
     margin: 5px;
-}*/
+}
 .logocolor{
     padding: 100px;
     display: flex;
@@ -96,7 +96,7 @@ h3{
     .iconos_inicio {
         display: flex;
         justify-content: center;
-    }*/
+    }
     .mov{
         animation-name: mov;
         animation-iteration-count: 1;
