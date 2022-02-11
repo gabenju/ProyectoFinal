@@ -1,21 +1,12 @@
 // Footer <-<-<-<-<-<-Q(-_-Q)
 .footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    .footer__ubicanos {
-        text-align: left; 
-        .footer__seguinos {
-            text-align: center;
-            .footer__politicas {
-                text-align: right;
-                color: white; 
-                .loguito{
-                    margin: 5px;
-                }
-            } 
-        }
-    }
+   padding: 30px;
 }
+
+.bi {
+    width: 30px;
+    height: 30px;
+  }
 // Header <-<-<-<-<-<-Q(-_-Q)
 .menu{
     display: flex;
