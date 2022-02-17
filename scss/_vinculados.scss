@@ -1,3 +1,5 @@
+@import "variables";
+
 // Footer <-<-<-<-<-<-Q(-_-Q)
 .footer {
    padding: 30px;
@@ -5,8 +7,8 @@
 
 .bi {
     width: 30px;
-    height: 30px;
-  }
+    height: 30px;   
+}
 // Header <-<-<-<-<-<-Q(-_-Q)
 .menu{
     display: flex;
@@ -19,10 +21,22 @@
     margin-left: 50px;
     margin-right: 50px;
         &:hover{
-        background-image: linear-gradient(to left, rgb(137, 127, 106), lightgrey);
+        background-image: linear-gradient(to left,$rde, lightgrey);
     }
 }
 .iconos_inicio {
     display: flex;
     justify-content: center;
+}
+$colores:(
+    instagram: rgb(143, 52, 143),
+    youtube: red,
+    gmail: #c25e30,
+    facebook: #3a5795,
+);
+@each $plataforma, $color in $colores{
+    .btn.#{$plataforma} {
+        background-color: $color;
+        border: $color;
+    }
 }

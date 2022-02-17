@@ -1,19 +1,16 @@
 @import "reset";
 @import "texto";
 @import "vinculados";
-
-
-
-
+@import "variables";
 
 // Generales <-<-<-<-<-<-Q(-_-Q)
 
 .posicionUbicacion {
     display: flex;
     justify-content: center;
-    background-color: rgb(137, 127, 106);;
+    background-color: $rde; 
     padding-top: 15px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
 }
 
 

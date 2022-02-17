@@ -50,6 +50,22 @@ h3 {
   display: flex;
   justify-content: center; }
 
+.btn.instagram {
+  background-color: #8f348f;
+  border: #8f348f; }
+
+.btn.youtube {
+  background-color: red;
+  border: red; }
+
+.btn.gmail {
+  background-color: #c25e30;
+  border: #c25e30; }
+
+.btn.facebook {
+  background-color: #3a5795;
+  border: #3a5795; }
+
 .posicionUbicacion {
   display: flex;
   justify-content: center;
