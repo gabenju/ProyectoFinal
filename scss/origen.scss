@@ -6,8 +6,7 @@
 // Generales <-<-<-<-<-<-Q(-_-Q)
 
 .posicionUbicacion {
-    display: flex;
-    justify-content: center;
+    @extend .iconos_inicio;
     background-color: $rde; 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -17,9 +16,8 @@
 // Media Q <-<-<-<-<-<-Q(-_-Q)
   @media (max-width: 480px) {
     .bi {
-      width: 20px;
-      height: 20px;
-      margin: 5px;
+        @include sizes;    
+        margin: 5px;    
     }
   }
 
@@ -49,4 +47,8 @@
         transform: translateX(-2000px)}
     to{
         transform: translateX(0);}  
+}
+@mixin sizes {
+    width: 20px;
+    height: 20px;    
 }

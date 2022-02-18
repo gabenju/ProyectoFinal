@@ -1,14 +1,13 @@
 @import "variables";
+@import "origen"
 
 // Footer <-<-<-<-<-<-Q(-_-Q)
 .footer {
    padding: 30px;
 }
-
 .bi {
-    width: 30px;
-    height: 30px;   
-}
+    @include sizes;  
+}  
 // Header <-<-<-<-<-<-Q(-_-Q)
 .menu{
     display: flex;
@@ -16,8 +15,7 @@
 }
 // Accesos <-<-<-<-<-<-Q(-_-Q)
 .botonAni{
-    display: flex;
-    justify-content: center;
+    @extend .iconos_inicio;
     margin-left: 50px;
     margin-right: 50px;
         &:hover{
@@ -31,12 +29,12 @@
 $colores:(
     instagram: rgb(143, 52, 143),
     youtube: red,
-    gmail: #c25e30,
-    facebook: #3a5795,
+    google: #C25E30,
+    facebook: #3A5795,
 );
 @each $plataforma, $color in $colores{
-    .btn.#{$plataforma} {
-        background-color: $color;
+    .bi-#{$plataforma} {
+        color: $color;
         border: $color;
     }
-}
+} 

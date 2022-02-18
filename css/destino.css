@@ -31,44 +31,40 @@ h3 {
   padding: 30px; }
 
 .bi {
-  width: 30px;
-  height: 30px; }
+  width: 20px;
+  height: 20px; }
 
 .menu {
   display: flex;
   justify-content: flex-end; }
 
 .botonAni {
-  display: flex;
-  justify-content: center;
   margin-left: 50px;
   margin-right: 50px; }
   .botonAni:hover {
     background-image: linear-gradient(to left, #897f6a, lightgrey); }
 
-.iconos_inicio {
+.iconos_inicio, .botonAni, .posicionUbicacion {
   display: flex;
   justify-content: center; }
 
-.btn.instagram {
-  background-color: #8f348f;
+.bi-instagram {
+  color: #8f348f;
   border: #8f348f; }
 
-.btn.youtube {
-  background-color: red;
+.bi-youtube {
+  color: red;
   border: red; }
 
-.btn.gmail {
-  background-color: #c25e30;
-  border: #c25e30; }
+.bi-google {
+  color: #C25E30;
+  border: #C25E30; }
 
-.btn.facebook {
-  background-color: #3a5795;
-  border: #3a5795; }
+.bi-facebook {
+  color: #3A5795;
+  border: #3A5795; }
 
 .posicionUbicacion {
-  display: flex;
-  justify-content: center;
   background-color: #897f6a;
   padding-top: 15px;
   padding-bottom: 15px; }
