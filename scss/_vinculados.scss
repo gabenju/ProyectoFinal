@@ -1,13 +1,9 @@
 @import "variables";
-@import "origen"
-
 // Footer <-<-<-<-<-<-Q(-_-Q)
-.footer {
-   padding: 30px;
-}
-.bi {
-    @include sizes;  
-}  
+.footer{
+    padding: 20px;
+ }
+
 // Header <-<-<-<-<-<-Q(-_-Q)
 .menu{
     display: flex;
