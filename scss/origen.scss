@@ -12,14 +12,20 @@
     padding-bottom: 15px;
 }
 .bi {
-    @include sizes;  
+    width: 20px;
+    height: 20px;
+    margin: 5px;  
 }  
 
 // Media Q <-<-<-<-<-<-Q(-_-Q)
   @media (max-width: 480px) {
     .bi {
-        @include sizes;    
-        margin: 5px;    
+        width: 20px;
+        height: 20px;
+        margin: 5px;     
+    }
+    .tarjeta{
+        
     }
   }
 
@@ -50,7 +56,4 @@
     to{
         transform: translateX(0);}  
 }
-@mixin sizes{
-    width: 20px;
-    height: 20px;  
-}
+
